@@ -26,6 +26,8 @@ if(modulus === 0){
 }*/
 
 
+
+
 //--------------------------------------------------------------------------
 
 
@@ -34,14 +36,14 @@ var  passengerAge = +prompt("Please Enter your age.........")
 
 
  if(passengerAge <= 5){
-     console.log("according to your age we will not charge" );
+     console.log("We will not charge" );
  }else if( passengerAge >= 6 && passengerAge <= 15 ){
-    console.log("you are an adult now you have to pay 20 rs");
+    console.log("You are an adult now you have to pay 20 rs");
  }else if (  passengerAge >= 16 && passengerAge <= 50  ){
-     console.log(" you have to pay 50rs");
+     console.log(" You have to pay 50rs");
  }else if (  passengerAge >= 50 && passengerAge <= 85 ){
-    console.log(" you have to pay 30rs");
+    console.log(" You have to pay 30rs");
  }
  else{
-    console.log("you have to pay");
+    console.log("You have to pay");
  }
